@@ -6,6 +6,7 @@ def slider():
     if count>= len(text):
         count =0
         sliderwords =''
+        count +=1 insert
     sliderwords += text[count]
     fontlabel.configure(text=sliderwords)
     fontlabel.after(150,slider)
